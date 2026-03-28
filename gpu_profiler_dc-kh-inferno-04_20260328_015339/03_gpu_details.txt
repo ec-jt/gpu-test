@@ -1,0 +1,104 @@
+=== GPU 0 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-82944b51-17a6-5c5f-d645-aa460681c748
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.61
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 1 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-7f9cd1be-be7e-fe85-68c0-e63467bbeccb
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.61
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 2 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-be18d0c7-abaa-9cf2-9740-357156ddedf2
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.61
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 3 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-fa43d050-dd8d-22e5-ee11-f545dac3658d
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.60
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 4 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-bcfbf04e-3b13-cdcb-df9d-12c370b097d9
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.61
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 5 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-6ffd5bc4-1b87-64bb-e5d5-93c834f788ef
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.61
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 6 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-52d31e6e-ec49-ac63-ad4b-665e1c8cad41
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.61
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 7 Details ===
+Name: NVIDIA GeForce RTX 5090
+Memory Total: 32607 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 580.76.05
+GPU UUID: GPU-4ef9e2af-57f1-11cd-a601-361dd99c6953
+Compute Capability: 12.0
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 98.02.2E.40.61
+Serial: 0
+Part Number: Field "part_number" is not a valid field to query.
+

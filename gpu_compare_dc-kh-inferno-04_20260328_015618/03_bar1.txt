@@ -1,0 +1,18 @@
+=== BAR1 SIZE ANALYSIS ===
+
+Per-GPU BAR1:
+GPU Name                      BAR1_Total   BAR1_Free    BAR1_Used   
+--- ------------------------- ------------ ------------ ------------
+0   NVIDIA GeForce RTX 5090   MB           MB           MB          
+1   NVIDIA GeForce RTX 5090   MB           MB           MB          
+2   NVIDIA GeForce RTX 5090   MB           MB           MB          
+3   NVIDIA GeForce RTX 5090   MB           MB           MB          
+4   NVIDIA GeForce RTX 5090   MB           MB           MB          
+5   NVIDIA GeForce RTX 5090   MB           MB           MB          
+6   NVIDIA GeForce RTX 5090   MB           MB           MB          
+7   NVIDIA GeForce RTX 5090   MB           MB           MB          
+
+Summary statistics:
+  Min BAR1 Free: MB
+  Max BAR1 Free: MB
+  Avg BAR1 Free: 0MB

@@ -1,0 +1,37 @@
+=== P2P Capability Matrix ===
+
+	[4mGPU0	GPU1	GPU2	GPU3	GPU4	GPU5	GPU6	GPU7	NIC0	NIC1	CPU Affinity	NUMA Affinity	GPU NUMA ID[0m
+GPU0	 X 	PIX	NODE	NODE	NODE	NODE	NODE	NODE	NODE	NODE	0-23	0		N/A
+GPU1	PIX	 X 	NODE	NODE	NODE	NODE	NODE	NODE	NODE	NODE	0-23	0		N/A
+GPU2	NODE	NODE	 X 	PIX	NODE	NODE	NODE	NODE	NODE	NODE	0-23	0		N/A
+GPU3	NODE	NODE	PIX	 X 	NODE	NODE	NODE	NODE	NODE	NODE	0-23	0		N/A
+GPU4	NODE	NODE	NODE	NODE	 X 	PIX	NODE	NODE	PHB	PHB	0-23	0		N/A
+GPU5	NODE	NODE	NODE	NODE	PIX	 X 	NODE	NODE	PHB	PHB	0-23	0		N/A
+GPU6	NODE	NODE	NODE	NODE	NODE	NODE	 X 	PIX	NODE	NODE	0-23	0		N/A
+GPU7	NODE	NODE	NODE	NODE	NODE	NODE	PIX	 X 	NODE	NODE	0-23	0		N/A
+NIC0	NODE	NODE	NODE	NODE	PHB	PHB	NODE	NODE	 X 	PIX				
+NIC1	NODE	NODE	NODE	NODE	PHB	PHB	NODE	NODE	PIX	 X 				
+
+Legend:
+
+  X    = Self
+  SYS  = Connection traversing PCIe as well as the SMP interconnect between NUMA nodes (e.g., QPI/UPI)
+  NODE = Connection traversing PCIe as well as the interconnect between PCIe Host Bridges within a NUMA node
+  PHB  = Connection traversing PCIe as well as a PCIe Host Bridge (typically the CPU)
+  PXB  = Connection traversing multiple PCIe bridges (without traversing the PCIe Host Bridge)
+  PIX  = Connection traversing at most a single PCIe bridge
+  NV#  = Connection traversing a bonded set of # NVLinks
+
+NIC Legend:
+
+  NIC0: mlx5_0
+  NIC1: mlx5_1
+
+
+CUDA P2P Access Test:
+  (Python CUDA module not available, skipping detailed P2P test)
+
+Using nvidia-smi for P2P info:
+Field "p2p_index" is not a valid field to query.
+
+  (not available)

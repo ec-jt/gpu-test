@@ -1,0 +1,14 @@
+=== RDMA INFRASTRUCTURE ===
+
+nvidia-peermem module:
+  ❌ Not loaded
+
+IB devices:
+  ✅ device          	   node GUID
+  ✅ ------          	----------------
+  ✅ mlx5_0          	18c04d03007ffefe
+  ✅ mlx5_1          	18c04d03007ffeff
+
+Mellanox NICs:
+  ✅ 82:00.0 Ethernet controller [0200]: Mellanox Technologies MT27710 Family [ConnectX-4 Lx] [15b3:1015]
+  ✅ 82:00.1 Ethernet controller [0200]: Mellanox Technologies MT27710 Family [ConnectX-4 Lx] [15b3:1015]

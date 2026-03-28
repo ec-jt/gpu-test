@@ -1,0 +1,72 @@
+=== PCI Device Information ===
+
+All NVIDIA devices:
+07:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+07:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+08:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+08:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+43:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+43:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+44:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+44:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+88:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+88:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+89:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+89:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+c3:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+c3:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+c4:00.0 VGA compatible controller [0300]: NVIDIA Corporation GB202 [GeForce RTX 5090] [10de:2b85] (rev a1)
+c4:00.1 Audio device [0403]: NVIDIA Corporation Device [10de:22e8] (rev a1)
+
+Detailed info for each GPU:
+PCIe Topology:
+-+-[0000:c0]-+-00.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-01.1-[c1-c4]--+-00.0-[c2-c4]--+-00.0-[c3]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]
+ |           |               |               |            \-00.1  NVIDIA Corporation Device 22e8
+ |           |               |               \-01.0-[c4]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]
+ |           |               |                            \-00.1  NVIDIA Corporation Device 22e8
+ |           |               \-00.1  Microchip Technology PM40052 Switchtec PFX 52xG4 Fanout PCIe Switch
+ |           +-02.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-03.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-03.3-[c5]--
+ |           +-03.4-[c6]--
+--
+ |           |            \-00.1  Mellanox Technologies MT27710 Family [ConnectX-4 Lx]
+ |           +-01.4-[83-84]----00.0-[84]----00.0  ASPEED Technology, Inc. ASPEED Graphics Family
+ |           +-01.6-[85]----00.0  Silicon Motion, Inc. SM2263EN/SM2263XT (DRAM-less) NVMe SSD Controllers
+ |           +-02.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-03.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-03.1-[86-89]--+-00.0-[87-89]--+-00.0-[88]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]
+ |           |               |               |            \-00.1  NVIDIA Corporation Device 22e8
+ |           |               |               \-01.0-[89]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]
+ |           |               |                            \-00.1  NVIDIA Corporation Device 22e8
+ |           |               \-00.1  Microchip Technology PM40052 Switchtec PFX 52xG4 Fanout PCIe Switch
+ |           +-04.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-05.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-07.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-07.1-[8a]--+-00.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+--
+ |           +-08.1-[8b]--+-00.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+ |           |            \-00.2  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+ |           \-08.2-[8c]----00.0  Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode]
+ +-[0000:40]-+-00.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+ |           +-01.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-01.1-[41-44]--+-00.0-[42-44]--+-00.0-[43]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]
+ |           |               |               |            \-00.1  NVIDIA Corporation Device 22e8
+ |           |               |               \-01.0-[44]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]
+ |           |               |                            \-00.1  NVIDIA Corporation Device 22e8
+ |           |               \-00.1  Microchip Technology PM40052 Switchtec PFX 52xG4 Fanout PCIe Switch
+ |           +-02.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-03.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+ |           +-03.1-[45]----00.0  Shenzhen Longsys Electronics Co., Ltd. Lexar NM790 NVME SSD (DRAM-less)
+ |           +-03.2-[46]----00.0  Shenzhen Longsys Electronics Co., Ltd. Lexar NM790 NVME SSD (DRAM-less)
+--
+             +-01.2-[02]----00.0  Shenzhen Longsys Electronics Co., Ltd. Lexar NM790 NVME SSD (DRAM-less)
+             +-01.3-[03]----00.0  Shenzhen Longsys Electronics Co., Ltd. Lexar NM790 NVME SSD (DRAM-less)
+             +-01.4-[04]----00.0  Shenzhen Longsys Electronics Co., Ltd. Lexar NM790 NVME SSD (DRAM-less)
+             +-02.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+             +-03.0  Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+             +-03.1-[05-08]--+-00.0-[06-08]--+-00.0-[07]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]
+             |               |               |            \-00.1  NVIDIA Corporation Device 22e8
+             |               |               \-01.0-[08]--+-00.0  NVIDIA Corporation GB202 [GeForce RTX 5090]

@@ -1,0 +1,6 @@
+=== NVIDIA P2P Exported Symbols ===
+
+/sys/module/nvidia/sections/.export_symbols not found
+
+Checking libnvidia-compiler.so:
+  (file not found)

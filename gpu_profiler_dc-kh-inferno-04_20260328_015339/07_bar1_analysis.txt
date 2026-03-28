@@ -1,0 +1,14 @@
+=== BAR1 Size Analysis ===
+
+GPU Index,Name,BAR1_Total(MB),BAR1_Free(MB),BAR1_Used(MB)
+0,NVIDIA GeForce RTX 5090,,,
+1,NVIDIA GeForce RTX 5090,,,
+2,NVIDIA GeForce RTX 5090,,,
+3,NVIDIA GeForce RTX 5090,,,
+4,NVIDIA GeForce RTX 5090,,,
+5,NVIDIA GeForce RTX 5090,,,
+6,NVIDIA GeForce RTX 5090,,,
+7,NVIDIA GeForce RTX 5090,,,
+
+Recommendation:
+  OK: Minimum BAR1 free is MB (>= 512MB). Should support RDMA.

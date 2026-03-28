@@ -1,0 +1,14 @@
+=== RDMA Device Information ===
+
+IB Devices:
+
+IB Devices List:
+    device          	   node GUID
+    ------          	----------------
+    mlx5_0          	18c04d03007ffefe
+    mlx5_1          	18c04d03007ffeff
+
+RDMA Core Devices:
+mlx5_0
+mlx5_1
+

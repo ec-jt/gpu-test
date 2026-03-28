@@ -1,0 +1,25 @@
+=== VBIOS DATA ===
+
+VBIOS versions from nvidia-smi:
+index, name, vbios_version
+0, NVIDIA GeForce RTX 5090, 98.02.2E.40.61
+1, NVIDIA GeForce RTX 5090, 98.02.2E.40.61
+2, NVIDIA GeForce RTX 5090, 98.02.2E.40.61
+3, NVIDIA GeForce RTX 5090, 98.02.2E.40.60
+4, NVIDIA GeForce RTX 5090, 98.02.2E.40.61
+5, NVIDIA GeForce RTX 5090, 98.02.2E.40.61
+6, NVIDIA GeForce RTX 5090, 98.02.2E.40.61
+7, NVIDIA GeForce RTX 5090, 98.02.2E.40.61
+
+VBIOS from lspci:
+  (not found)
+
+Product info strings from VBIOS ROM:
+  NVIDIA GeForce RTX 5090:
+  NVIDIA GeForce RTX 5090:
+  NVIDIA GeForce RTX 5090:
+  NVIDIA GeForce RTX 5090:
+  NVIDIA GeForce RTX 5090:
+  NVIDIA GeForce RTX 5090:
+  NVIDIA GeForce RTX 5090:
+  NVIDIA GeForce RTX 5090:

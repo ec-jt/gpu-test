@@ -1,0 +1,45 @@
+================================================================================
+GPU SYSTEM SUMMARY - Ready for Cross-System Comparison
+================================================================================
+
+SYSTEM: dc-kh-inferno-04
+DATE: Sat Mar 28 01:56:22 UTC 2026
+KERNEL: 6.9.0+
+DRIVER: 580.76.05
+
+GPU CONFIGURATION:
+Field "BAR1" is not a valid field to query.
+
+PCI DEVICE IDS:
+
+
+BAR1 STATISTICS:
+Min Free: MB
+Max Free: MB
+Avg Free: 0.0MB
+
+P2P SYMBOLS EXPORTED:
+Unknown
+
+REQUIRED SYMBOLS STATUS:
+  (cannot check)
+
+RDMA MODULES:
+  ❌ nvidia-peermem not loaded
+
+IB DEVICES:
+  ✅     device          	   node GUID
+  ✅     ------          	----------------
+  ✅     mlx5_0          	18c04d03007ffefe
+  ✅     mlx5_1          	18c04d03007ffeff
+
+MELLANOX NICs:
+  ✅ 82:00.0 Ethernet controller [0200]: Mellanox Technologies MT27710 Family [ConnectX-4 Lx] [15b3:1015]
+  ✅ 82:00.1 Ethernet controller [0200]: Mellanox Technologies MT27710 Family [ConnectX-4 Lx] [15b3:1015]
+
+VBIOS VERSION:
+ 98.02.2E.40.61
+
+================================================================================
+END OF SUMMARY
+================================================================================

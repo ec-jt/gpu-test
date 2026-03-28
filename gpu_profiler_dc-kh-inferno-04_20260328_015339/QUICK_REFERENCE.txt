@@ -1,0 +1,41 @@
+========================================
+QUICK REFERENCE FOR RDMA SPOOFING
+========================================
+
+Hostname: dc-kh-inferno-04
+Date: Sat Mar 28 01:53:51 UTC 2026
+
+GPU COUNT: 8
+
+GPU MODELS & PCI ADDRESSES:
+GPU 0: NVIDIA GeForce RTX 5090 @ 00000000:07:00.0 (BAR1 free: MB)
+GPU 1: NVIDIA GeForce RTX 5090 @ 00000000:08:00.0 (BAR1 free: MB)
+GPU 2: NVIDIA GeForce RTX 5090 @ 00000000:43:00.0 (BAR1 free: MB)
+GPU 3: NVIDIA GeForce RTX 5090 @ 00000000:44:00.0 (BAR1 free: MB)
+GPU 4: NVIDIA GeForce RTX 5090 @ 00000000:88:00.0 (BAR1 free: MB)
+GPU 5: NVIDIA GeForce RTX 5090 @ 00000000:89:00.0 (BAR1 free: MB)
+GPU 6: NVIDIA GeForce RTX 5090 @ 00000000:C3:00.0 (BAR1 free: MB)
+GPU 7: NVIDIA GeForce RTX 5090 @ 00000000:C4:00.0 (BAR1 free: MB)
+
+PCI DEVICE IDs (for lspci):
+
+
+TARGET SPOOF ID (RTX 6000 Ada):
+Device ID: 0x2704
+Part Number: 900-1G045-0000-020
+
+NVIDIA PEERMEM STATUS:
+❌ Not loaded
+
+IB DEVICES:
+    device          	   node GUID
+    ------          	----------------
+    mlx5_0          	18c04d03007ffefe
+    mlx5_1          	18c04d03007ffeff
+
+QUICK TEST COMMANDS:
+1. Check P2P symbols: grep nvidia_p2p /sys/module/nvidia/sections/.export_symbols
+2. Load peermem: sudo modprobe nvidia-peermem
+3. Test RDMA: sudo ./test_rdma (if compiled)
+4. Check BAR1: nvidia-smi --query-gpu=BAR1,bar1_free --format=csv
+

@@ -1,0 +1,10 @@
+=== GPU IDENTIFICATION ===
+Hostname: dc-kh-inferno-04
+Driver: NVIDIA-SMI version  : 580.76.05
+NVML version        : 580.76
+DRIVER version      : 580.76.05
+CUDA Version        : 13.0
+
+GPU List (CSV format for easy comparison):
+Field "BAR1" is not a valid field to query.
+

@@ -1,0 +1,12 @@
+==============================================
+GPU HARDWARE PROFILE SUMMARY
+==============================================
+
+System: dc-kh-inferno-04
+Kernel: 6.9.0+
+Driver: 580.76.05
+GPUs: 8
+
+GPU Inventory:
+Field "BAR1" is not a valid field to query.
+

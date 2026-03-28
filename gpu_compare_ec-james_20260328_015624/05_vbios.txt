@@ -1,0 +1,11 @@
+=== VBIOS DATA ===
+
+VBIOS versions from nvidia-smi:
+index, name, vbios_version
+0, NVIDIA RTX 6000 Ada Generation, 95.02.3A.00.06
+1, NVIDIA RTX 6000 Ada Generation, 95.02.3A.00.06
+
+VBIOS from lspci:
+  (not found)
+
+Product info strings from VBIOS ROM:

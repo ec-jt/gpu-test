@@ -1,0 +1,10 @@
+=== GPU IDENTIFICATION ===
+Hostname: ec-james
+Driver: NVIDIA-SMI version  : 575.51.02
+NVML version        : 575.51
+DRIVER version      : 575.51.02
+CUDA Version        : 12.9
+
+GPU List (CSV format for easy comparison):
+Field "BAR1" is not a valid field to query.
+

@@ -1,0 +1,12 @@
+==============================================
+GPU HARDWARE PROFILE SUMMARY
+==============================================
+
+System: ec-james
+Kernel: 6.8.0-87-generic
+Driver: 575.51.02
+GPUs: 2
+
+GPU Inventory:
+Field "BAR1" is not a valid field to query.
+

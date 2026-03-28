@@ -1,0 +1,10 @@
+=== RDMA INFRASTRUCTURE ===
+
+nvidia-peermem module:
+  ❌ Not loaded
+
+IB devices:
+  ✅ device          	   node GUID
+  ✅ ------          	----------------
+
+Mellanox NICs:

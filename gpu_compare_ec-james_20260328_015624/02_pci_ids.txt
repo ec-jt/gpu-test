@@ -1,0 +1,5 @@
+=== PCI DEVICE IDS ===
+
+All NVIDIA VGA devices:
+
+Device ID summary (for spoofing reference):

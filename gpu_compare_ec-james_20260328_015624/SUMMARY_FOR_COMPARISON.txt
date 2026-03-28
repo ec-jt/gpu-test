@@ -1,0 +1,42 @@
+================================================================================
+GPU SYSTEM SUMMARY - Ready for Cross-System Comparison
+================================================================================
+
+SYSTEM: ec-james
+DATE: Sat 28 Mar 01:56:25 GMT 2026
+KERNEL: 6.8.0-87-generic
+DRIVER: 575.51.02
+
+GPU CONFIGURATION:
+Field "BAR1" is not a valid field to query.
+
+PCI DEVICE IDS:
+
+
+BAR1 STATISTICS:
+Min Free: MB
+Max Free: MB
+Avg Free: 0.0MB
+
+P2P SYMBOLS EXPORTED:
+Unknown
+
+REQUIRED SYMBOLS STATUS:
+  (cannot check)
+
+RDMA MODULES:
+  ❌ nvidia-peermem not loaded
+
+IB DEVICES:
+  ✅     device          	   node GUID
+  ✅     ------          	----------------
+
+MELLANOX NICs:
+
+
+VBIOS VERSION:
+ 95.02.3A.00.06
+
+================================================================================
+END OF SUMMARY
+================================================================================

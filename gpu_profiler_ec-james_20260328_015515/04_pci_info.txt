@@ -1,0 +1,35 @@
+=== PCI Device Information ===
+
+All NVIDIA devices:
+16:00.0 VGA compatible controller [0300]: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] [10de:26b1] (rev a1)
+16:00.1 Audio device [0403]: NVIDIA Corporation AD102 High Definition Audio Controller [10de:22ba] (rev a1)
+70:00.0 VGA compatible controller [0300]: NVIDIA Corporation AD102GL [RTX 6000 Ada Generation] [10de:26b1] (rev a1)
+70:00.1 Audio device [0403]: NVIDIA Corporation AD102 High Definition Audio Controller [10de:22ba] (rev a1)
+
+Detailed info for each GPU:
+PCIe Topology:
+ |           \-03.0-[8f]----00.0  Sandisk Corp WD Black SN770 / PC SN740 256GB / PC SN560 (DRAM-less) NVMe SSD
+ +-[0000:6f]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[70]--+-00.0  NVIDIA Corporation AD102GL [RTX 6000 Ada Generation]
+ |                        \-00.1  NVIDIA Corporation AD102 High Definition Audio Controller
+ +-[0000:51]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           \-00.4  Intel Corporation Device 0b23
+ +-[0000:33]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+--
+ |           \-01.0-[34]----00.0  Aquantia Corp. AQtion AQC107 NBase-T/IEEE 802.3an Ethernet Controller [Atlantic 10G]
+ +-[0000:15]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+ |           +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+ |           +-00.2  Intel Corporation Ice Lake RAS
+ |           +-00.4  Intel Corporation Device 0b23
+ |           \-01.0-[16]--+-00.0  NVIDIA Corporation AD102GL [RTX 6000 Ada Generation]
+ |                        \-00.1  NVIDIA Corporation AD102 High Definition Audio Controller
+ \-[0000:00]-+-00.0  Intel Corporation Ice Lake Memory Map/VT-d
+             +-00.1  Intel Corporation Ice Lake Mesh 2 PCIe
+             +-00.2  Intel Corporation Ice Lake RAS
+             +-00.4  Intel Corporation Device 0b23
+             +-10.0  Intel Corporation Device 7ada

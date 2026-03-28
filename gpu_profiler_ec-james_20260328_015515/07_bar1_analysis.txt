@@ -1,0 +1,8 @@
+=== BAR1 Size Analysis ===
+
+GPU Index,Name,BAR1_Total(MB),BAR1_Free(MB),BAR1_Used(MB)
+0,NVIDIA RTX 6000 Ada Generation,,,
+1,NVIDIA RTX 6000 Ada Generation,,,
+
+Recommendation:
+  OK: Minimum BAR1 free is MB (>= 512MB). Should support RDMA.

@@ -1,0 +1,3 @@
+=== P2P SYMBOL EXPORTS ===
+
+❌ Cannot check (export_symbols not available)

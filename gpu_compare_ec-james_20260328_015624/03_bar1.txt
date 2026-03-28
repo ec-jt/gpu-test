@@ -1,0 +1,12 @@
+=== BAR1 SIZE ANALYSIS ===
+
+Per-GPU BAR1:
+GPU Name                      BAR1_Total   BAR1_Free    BAR1_Used   
+--- ------------------------- ------------ ------------ ------------
+0   NVIDIA RTX 6000 Ada Gener MB           MB           MB          
+1   NVIDIA RTX 6000 Ada Gener MB           MB           MB          
+
+Summary statistics:
+  Min BAR1 Free: MB
+  Max BAR1 Free: MB
+  Avg BAR1 Free: 0MB

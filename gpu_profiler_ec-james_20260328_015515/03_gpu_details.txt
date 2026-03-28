@@ -1,0 +1,26 @@
+=== GPU 0 Details ===
+Name: NVIDIA RTX 6000 Ada Generation
+Memory Total: 49140 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 575.51.02
+GPU UUID: GPU-f9a5a14f-ebe7-2a21-6a84-da02f172275f
+Compute Capability: 8.9
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 95.02.3A.00.06
+Serial: 1321523003251
+Part Number: Field "part_number" is not a valid field to query.
+
+=== GPU 1 Details ===
+Name: NVIDIA RTX 6000 Ada Generation
+Memory Total: 49140 MiB
+BAR1 Total: Field "BAR1" is not a valid field to query.
+BAR1 Free: Field "bar1_free" is not a valid field to query.
+Driver Version: 575.51.02
+GPU UUID: GPU-981f4973-b1ad-7e09-41ca-4b98a0d9b719
+Compute Capability: 8.9
+GSP Firmware: Field "gsp_firmware_version" is not a valid field to query.
+VBIOS Version: 95.02.3A.00.06
+Serial: 1321523003350
+Part Number: Field "part_number" is not a valid field to query.
+

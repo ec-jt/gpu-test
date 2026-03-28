@@ -1,0 +1,10 @@
+=== RDMA Device Information ===
+
+IB Devices:
+
+IB Devices List:
+    device          	   node GUID
+    ------          	----------------
+
+RDMA Core Devices:
+
